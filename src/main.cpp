@@ -1,14 +1,17 @@
 #include <raylib.h>
 #include <raymath.h>
+#include "view.h"
 
 int main()
 {
-    InitWindow(400, 224, "A New Window");
+    // Initial window viewport setup. Check View for scaling
+    View Viewport;                          
+    InitWindow(Viewport.Width, Viewport.Height, "A New Window");
+    SetTargetFPS(120);
 
     while (!WindowShouldClose()) {
         BeginDrawing();
-            ClearBackground(RAYWHITE);
-    
+        ClearBackground(RAYWHITE);
         EndDrawing();
     }
     
