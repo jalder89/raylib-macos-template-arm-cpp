@@ -18,7 +18,7 @@ In the template folder create these folders:
   - src - This is your app source
   - assets - This is your app assets like images, sounds, etc
 
-Add libraylib.a, raylib.h, and raymath.g from your built raylib source to the `lib` folder
+Add libraylib.a, raylib.h, and raymath.h from your built raylib source to the `lib` folder
 
 ## 3: Open your template folder in VS Code
 
