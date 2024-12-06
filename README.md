@@ -28,7 +28,7 @@ Add libraylib.a, raylib.h, and raymath.g from your built raylib source to the `l
 #include <raylib.h>
 #include <raymath.h>
 
-Int main()
+int main()
 {
 	InitWindow(400, 224, "Template-4.0.0");
 	
