@@ -28,7 +28,7 @@ Add libraylib.a, raylib.h, and raymath.g from your built raylib source to the `l
 #include <raylib.h>
 #include <raymath.h>
 
-Int main()
+int main()
 {
 	InitWindow(400, 224, "Template-4.0.0");
 	
@@ -47,7 +47,7 @@ Int main()
 Just call the file makefile without an extension for now.
 
 ## 6: Add these arguments and variables to the make file
-NOTE: build recipes must be spaced using a tab character:
+IMPORTANT NOTE: build recipes (build_osx) must be spaced using a tab character, copy/pasting Markdown tends to convert tabs to spaces:
 
 ```
 COMPILER = clang++
